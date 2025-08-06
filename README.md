@@ -54,11 +54,11 @@
 
 | **力引导布局 (Force Directed)** | **社区感知布局 (Louvain-based)** |
 | :---: | :---: |
-| <img src="URL_TO_FORCE_LAYOUT_DEMO_GIF" width="400" /> | <img src="URL_TO_LOUVAIN_LAYOUT_DEMO_GIF" width="400" /> |
+| <img src="动画2.gif" width="500" /> | <img src="动画3.gif" width="500" /> |
 | 模拟物理世界中粒子间的引力和斥力，自然地将连接紧密的节点聚合在一起，是探索网络内在结构的通用首选。 | 结合Louvain社区发现算法，在力引导的基础上，将同一社区的节点赋予相同颜色并拉近，能清晰地揭示网络中的“小团体”结构。 |
 | **环形布局 (Circular)** | **随机布局 (Random)** |
 | :---: | :---: |
-| <img src="URL_TO_CIRCULAR_LAYOUT_DEMO_GIF" width="400" /> | <img src="URL_TO_RANDOM_LAYOUT_DEMO_GIF" width="400" /> |
+| <img src="动画4.gif" width="500" /> | <img src="动画5.gif" width="500" /> |
 | 将所有节点均匀地分布在一个圆环上，边的交叉关系一目了了然。非常适合观察节点的度（连接数）分布特征。 | 将节点随机散布在画布上，作为一种无偏见的“原始”视图，常用于对比其他结构化布局算法的效果。 |
 
 2. 多算法对比与动态高亮
